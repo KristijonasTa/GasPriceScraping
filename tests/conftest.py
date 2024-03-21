@@ -8,8 +8,7 @@ driver = None
 def initialize_driver(request):
     global driver
     if request.param == "chrome":
-        chrome_options = webdriver.ChromeOptions()
-        driver = webdriver.Chrome(chrome_options)
+        driver = webdriver.Chrome()
     elif request.param == "firefox":
         driver = webdriver.Firefox()
     elif request.param == "edge":

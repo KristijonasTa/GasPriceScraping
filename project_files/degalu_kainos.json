@@ -4,12 +4,12 @@
             {
                 "Degalinė": " Baltic Petroleum",
                 "Adresas": "Metalo g. 4B, Vilnius",
-                "Dyzelis": "1.459"
+                "Dyzelis": "1.469"
             },
             {
                 "Degalinė": " Baltic Petroleum",
-                "Adresas": "Kalvarijų g. 161A, Vilnius",
-                "Dyzelis": "1.470"
+                "Adresas": "B. Brazdžionio g. 2, Vilnius",
+                "Dyzelis": "1.480"
             },
             {
                 "Degalinė": " Skulas",
@@ -18,13 +18,13 @@
             },
             {
                 "Degalinė": " Baltic Petroleum",
-                "Adresas": "Rinktinės g. 59, Vilnius",
-                "Dyzelis": "1.500"
+                "Adresas": "Kalvarijų g. 161A, Vilnius",
+                "Dyzelis": "1.499"
             },
             {
-                "Degalinė": " Alauša",
-                "Adresas": "Kalvarijų g. 204G, Vilnius",
-                "Dyzelis": "1.519"
+                "Degalinė": " EMSI Jeruzalė",
+                "Adresas": "Jeruzalės g. 2, Vilnius",
+                "Dyzelis": "1.500"
             }
         ]
     },
@@ -33,17 +33,7 @@
             {
                 "Degalinė": " Baltic Petroleum",
                 "Adresas": "Metalo g. 4B, Vilnius",
-                "95": "1.419"
-            },
-            {
-                "Degalinė": " Baltic Petroleum",
-                "Adresas": "Kalvarijų g. 161A, Vilnius",
-                "95": "1.429"
-            },
-            {
-                "Degalinė": " EMSI Trakų Vokė",
-                "Adresas": "Gunkliškių g., Vilnius",
-                "95": "1.430"
+                "95": "1.439"
             },
             {
                 "Degalinė": " EMSI Bukiškės",
@@ -51,9 +41,19 @@
                 "95": "1.440"
             },
             {
-                "Degalinė": " Baltic Petroleum",
-                "Adresas": "Rinktinės g. 59, Vilnius",
-                "95": "1.444"
+                "Degalinė": " Takuras",
+                "Adresas": "Geležinio Vilko g. 24, Vilnius",
+                "95": "1.449"
+            },
+            {
+                "Degalinė": " Skulas",
+                "Adresas": "J. Kazlausko g. 33, Vilnius",
+                "95": "1.449"
+            },
+            {
+                "Degalinė": " Jozita",
+                "Adresas": "Pramonės g. 18, Vilnius",
+                "95": "1.450"
             }
         ]
     },
@@ -61,18 +61,18 @@
         "98 kainos": [
             {
                 "Degalinė": " Jozita",
-                "Adresas": "Pramonės g. 18, Vilnius",
-                "98": "1.450"
-            },
-            {
-                "Degalinė": " Jozita",
                 "Adresas": "Parko g. 69A, Vilnius",
                 "98": "1.450"
             },
             {
-                "Degalinė": " EMSI Jeruzalė",
-                "Adresas": "Jeruzalės g. 2, Vilnius",
-                "98": "1.451"
+                "Degalinė": " Jozita",
+                "Adresas": "Pramonės g. 18, Vilnius",
+                "98": "1.450"
+            },
+            {
+                "Degalinė": " Baltic Petroleum",
+                "Adresas": "Visalaukio g. 2, Vilnius",
+                "98": "1.469"
             },
             {
                 "Degalinė": " Takuras",
@@ -80,9 +80,9 @@
                 "98": "1.469"
             },
             {
-                "Degalinė": " Baltic Petroleum",
-                "Adresas": "Rinktinės g. 59, Vilnius",
-                "98": "1.474"
+                "Degalinė": " Alauša",
+                "Adresas": "Kalvarijų g. 204G, Vilnius",
+                "98": "1.499"
             }
         ]
     },
@@ -95,17 +95,17 @@
             },
             {
                 "Degalinė": " Jozita",
-                "Adresas": "Pramonės g. 18, Vilnius",
-                "LPG": "0.550"
-            },
-            {
-                "Degalinė": " Jozita",
                 "Adresas": "Parko g. 69A, Vilnius",
                 "LPG": "0.550"
             },
             {
-                "Degalinė": " Alauša",
-                "Adresas": "Kalvarijų g. 204G, Vilnius",
+                "Degalinė": " Jozita",
+                "Adresas": "Pramonės g. 18, Vilnius",
+                "LPG": "0.550"
+            },
+            {
+                "Degalinė": " Baltic Petroleum",
+                "Adresas": "Kalvarijų g. 161A, Vilnius",
                 "LPG": "0.579"
             },
             {

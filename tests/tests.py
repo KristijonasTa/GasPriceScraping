@@ -23,7 +23,7 @@ class TestMain:
 
         main_page.select_city()
 
-        expected_url = "https://gas.didnt.work/?country=lt&brand=&city=Vilnius"
+        expected_url = TestData.expected_url_gas_vilnius
         assert self.driver.current_url == expected_url
 
         main_page.get_diesel_prices()

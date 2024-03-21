@@ -42,6 +42,10 @@ class TestMain:
 `
 ![img_1.png](img_1.png)
 
+Or you can start it via console: 
+1. Navigate to folder /tests/ 
+2. Write: pytest tests.py (Will run program and send data to email that inserted in TestData.gmail_recipients)
+3. Write: pytest tests.py --email=your@email.com (Will run the program and send data to email that you insert in console)
 
 ## Feedback
 
