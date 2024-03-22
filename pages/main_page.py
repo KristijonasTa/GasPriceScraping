@@ -39,18 +39,18 @@ class MainPage(BasePage, LogsClass):
 
     @staticmethod
     def insert_data_to_excel(df, gas, name_of_sheet):
-            df = df.replace({'-': 'x'})
-            sorted_df = df.sort_values(by=gas)
-            try:
-                existing_excel = pandas.read_excel(TestData.file_path_excel, sheet_name=None)
-            except FileNotFoundError:
-                existing_excel = {}
+        df = df.replace({'-': 'x'})
+        sorted_df = df.sort_values(by=gas)
+        try:
+            existing_excel = pandas.read_excel(TestData.file_path_excel, sheet_name=None)
+        except FileNotFoundError:
+            existing_excel = {}
 
-            with pandas.ExcelWriter(TestData.file_path_excel, engine='openpyxl') as writer:
-                for sheet_name, data in existing_excel.items():
-                    data.to_excel(writer, sheet_name=sheet_name, index=False)
-                sheet_name = name_of_sheet if name_of_sheet else existing_excel
-                sorted_df.to_excel(writer, sheet_name=sheet_name, index=False)
+        with pandas.ExcelWriter(TestData.file_path_excel, engine='xlsxwriter') as writer:
+            for sheet_name, data in existing_excel.items():
+                data.to_excel(writer, sheet_name=sheet_name, index=False)
+            sheet_name = name_of_sheet if name_of_sheet else existing_excel
+            sorted_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
     def change_language(self):
         try:

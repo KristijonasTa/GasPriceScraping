@@ -1,72 +1,69 @@
-2024-03-21 17:22:51,080 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
-2024-03-21 17:22:51,651 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
-2024-03-21 17:22:52,128 - utils.logs_class - INFO - Vilnius element selected in drop down
-2024-03-21 17:22:52,137 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
-2024-03-21 17:22:52,138 - utils.logs_class - INFO - Data scraping started for Dyzelis
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Data scraping started for 95
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Excel sheet for 95 gas added
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Data scraping started for 98
-2024-03-21 17:22:52,489 - utils.logs_class - INFO - Excel sheet for 98 gas added
-2024-03-21 17:22:52,490 - utils.logs_class - INFO - Data scraping started for LPG
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Excel sheet for LPG gas added
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Extract started in excel file to create JSON file
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Initializing new window
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - New window opened GMAIL main page loaded
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - Start to login to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Logged in to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Start to create new EMAIL
-2024-03-21 17:23:02,126 - utils.logs_class - INFO - EMAIL created, recipient added
-2024-03-21 17:23:02,499 - utils.logs_class - INFO - Taking information from JSON to create email content
-2024-03-21 17:23:03,278 - utils.logs_class - INFO - Subject added, email, content added
-2024-03-21 17:23:04,592 - utils.logs_class - INFO - Email sent
-2024-03-21 17:23:04,621 - utils.logs_class - INFO - TEST PASSED
-2024-03-21 17:22:51,080 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
-2024-03-21 17:22:51,651 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
-2024-03-21 17:22:52,128 - utils.logs_class - INFO - Vilnius element selected in drop down
-2024-03-21 17:22:52,137 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
-2024-03-21 17:22:52,138 - utils.logs_class - INFO - Data scraping started for Dyzelis
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Data scraping started for 95
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Excel sheet for 95 gas added
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Data scraping started for 98
-2024-03-21 17:22:52,489 - utils.logs_class - INFO - Excel sheet for 98 gas added
-2024-03-21 17:22:52,490 - utils.logs_class - INFO - Data scraping started for LPG
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Excel sheet for LPG gas added
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Extract started in excel file to create JSON file
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Initializing new window
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - New window opened GMAIL main page loaded
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - Start to login to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Logged in to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Start to create new EMAIL
-2024-03-21 17:23:02,126 - utils.logs_class - INFO - EMAIL created, recipient added
-2024-03-21 17:23:02,499 - utils.logs_class - INFO - Taking information from JSON to create email content
-2024-03-21 17:23:03,278 - utils.logs_class - INFO - Subject added, email, content added
-2024-03-21 17:23:04,592 - utils.logs_class - INFO - Email sent
-2024-03-21 17:23:04,621 - utils.logs_class - INFO - TEST PASSED
-2024-03-21 17:22:51,080 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
-2024-03-21 17:22:51,651 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
-2024-03-21 17:22:52,128 - utils.logs_class - INFO - Vilnius element selected in drop down
-2024-03-21 17:22:52,137 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
-2024-03-21 17:22:52,138 - utils.logs_class - INFO - Data scraping started for Dyzelis
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
-2024-03-21 17:22:52,280 - utils.logs_class - INFO - Data scraping started for 95
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Excel sheet for 95 gas added
-2024-03-21 17:22:52,386 - utils.logs_class - INFO - Data scraping started for 98
-2024-03-21 17:22:52,489 - utils.logs_class - INFO - Excel sheet for 98 gas added
-2024-03-21 17:22:52,490 - utils.logs_class - INFO - Data scraping started for LPG
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Excel sheet for LPG gas added
-2024-03-21 17:22:52,597 - utils.logs_class - INFO - Extract started in excel file to create JSON file
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
-2024-03-21 17:22:52,664 - utils.logs_class - INFO - Initializing new window
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - New window opened GMAIL main page loaded
-2024-03-21 17:22:54,780 - utils.logs_class - INFO - Start to login to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Logged in to GMAIL
-2024-03-21 17:22:56,870 - utils.logs_class - INFO - Start to create new EMAIL
-2024-03-21 17:23:02,126 - utils.logs_class - INFO - EMAIL created, recipient added
-2024-03-21 17:23:02,499 - utils.logs_class - INFO - Taking information from JSON to create email content
-2024-03-21 17:23:03,278 - utils.logs_class - INFO - Subject added, email, content added
-2024-03-21 17:23:04,592 - utils.logs_class - INFO - Email sent
-2024-03-21 17:23:04,621 - utils.logs_class - INFO - TEST PASSED
+2024-03-22 09:30:23,532 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
+2024-03-22 09:30:24,141 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
+2024-03-22 09:30:24,625 - utils.logs_class - INFO - Vilnius element selected in drop down
+2024-03-22 09:30:24,630 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
+2024-03-22 09:30:24,631 - utils.logs_class - INFO - Data scraping started for Dyzelis
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Data scraping started for 95
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Excel sheet for 95 gas added
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Data scraping started for 98
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Excel sheet for 98 gas added
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Data scraping started for LPG
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Excel sheet for LPG gas added
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Extract started in excel file to create JSON file
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Initializing new window
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - New window opened GMAIL main page loaded
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - Start to login to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Logged in to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Start to create new EMAIL
+2024-03-22 09:30:32,893 - utils.logs_class - INFO - EMAIL created, recipient added
+2024-03-22 09:30:33,237 - utils.logs_class - INFO - Taking information from JSON to create email content
+2024-03-22 09:30:34,000 - utils.logs_class - INFO - Subject added, email, content added
+2024-03-22 09:30:34,062 - utils.logs_class - INFO - TEST PASSED
+2024-03-22 09:30:23,532 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
+2024-03-22 09:30:24,141 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
+2024-03-22 09:30:24,625 - utils.logs_class - INFO - Vilnius element selected in drop down
+2024-03-22 09:30:24,630 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
+2024-03-22 09:30:24,631 - utils.logs_class - INFO - Data scraping started for Dyzelis
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Data scraping started for 95
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Excel sheet for 95 gas added
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Data scraping started for 98
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Excel sheet for 98 gas added
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Data scraping started for LPG
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Excel sheet for LPG gas added
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Extract started in excel file to create JSON file
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Initializing new window
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - New window opened GMAIL main page loaded
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - Start to login to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Logged in to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Start to create new EMAIL
+2024-03-22 09:30:32,893 - utils.logs_class - INFO - EMAIL created, recipient added
+2024-03-22 09:30:33,237 - utils.logs_class - INFO - Taking information from JSON to create email content
+2024-03-22 09:30:34,000 - utils.logs_class - INFO - Subject added, email, content added
+2024-03-22 09:30:34,062 - utils.logs_class - INFO - TEST PASSED
+2024-03-22 09:30:23,532 - utils.logs_class - INFO - Scrap data insert to excel and send email test started
+2024-03-22 09:30:24,141 - utils.logs_class - INFO - Language changed to Lithuanian Assertion passed
+2024-03-22 09:30:24,625 - utils.logs_class - INFO - Vilnius element selected in drop down
+2024-03-22 09:30:24,630 - utils.logs_class - INFO - Vilnius element selected in drop down Assertion passed
+2024-03-22 09:30:24,631 - utils.logs_class - INFO - Data scraping started for Dyzelis
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Excel sheet for Dyzelis gas added
+2024-03-22 09:30:24,727 - utils.logs_class - INFO - Data scraping started for 95
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Excel sheet for 95 gas added
+2024-03-22 09:30:24,830 - utils.logs_class - INFO - Data scraping started for 98
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Excel sheet for 98 gas added
+2024-03-22 09:30:24,938 - utils.logs_class - INFO - Data scraping started for LPG
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Excel sheet for LPG gas added
+2024-03-22 09:30:25,070 - utils.logs_class - INFO - Extract started in excel file to create JSON file
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Extract ended new JSON file created with 5 lowest gast prices
+2024-03-22 09:30:25,091 - utils.logs_class - INFO - Initializing new window
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - New window opened GMAIL main page loaded
+2024-03-22 09:30:26,375 - utils.logs_class - INFO - Start to login to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Logged in to GMAIL
+2024-03-22 09:30:28,496 - utils.logs_class - INFO - Start to create new EMAIL
+2024-03-22 09:30:32,893 - utils.logs_class - INFO - EMAIL created, recipient added
+2024-03-22 09:30:33,237 - utils.logs_class - INFO - Taking information from JSON to create email content
+2024-03-22 09:30:34,000 - utils.logs_class - INFO - Subject added, email, content added
+2024-03-22 09:30:34,062 - utils.logs_class - INFO - TEST PASSED
