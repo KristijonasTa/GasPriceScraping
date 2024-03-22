@@ -1,12 +1,11 @@
 import pytest
 from selenium import webdriver
 from utils.test_data import TestData
-driver = None
 
 
 @pytest.fixture(params=["chrome", "firefox", "edge"])
 def initialize_driver(request):
-    global driver
+    driver: webdriver
     if request.param == "chrome":
         driver = webdriver.Chrome()
     elif request.param == "firefox":

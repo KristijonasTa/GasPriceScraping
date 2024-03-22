@@ -17,3 +17,4 @@ GMAIL_NEW_MAIL_INPUT = (By.XPATH, "//div[@role='textbox']")
 GMAIL_SEND_MAIL = (By.XPATH, "//div[text()='Send']")
 GMAIL_MESSAGE_SENT = (By.XPATH, "//span[contains(.,'Message sent')]")
 GMAIL_LOGO = (By.XPATH, "//img[@role='presentation']")
+

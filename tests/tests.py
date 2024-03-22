@@ -36,5 +36,5 @@ class TestMain:
         send_email_page.login_to_gmail()
         send_email_page.create_new_mail_insert_recipient(email)
         send_email_page.insert_subject_and_body()
-        # send_email_page.send_email()
+        send_email_page.send_email()
         send_email_page.logo()

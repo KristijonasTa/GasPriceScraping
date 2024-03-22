@@ -12,9 +12,9 @@ class MainPage(BasePage, LogsClass):
         super().__init__(driver)
         LogsClass.__init__(self)
 
-    def scrap_data(self, gas, number):
+    def scrap_data(self, gas_name, number):
         try:
-            self.logger.info(f"Data scraping started for {gas}")
+            self.logger.info(f"Data scraping started for {gas_name}")
             page_content = self.driver.page_source
             soup = BeautifulSoup(page_content, 'html.parser')
             gas_station_table = (soup.find('table', class_='table is-narrow is-striped sortable')
@@ -29,7 +29,7 @@ class MainPage(BasePage, LogsClass):
                 content[TestData.excel_row_degaline] = name_of_gas_station.replace('⛽', '')
                 address = whole_information_gas_station.find('small').text
                 content[TestData.excel_row_adresas] = address
-                content[gas] = row.find_all('td')[number].text
+                content[gas_name] = row.find_all('td')[number].text
 
                 gas_list.append(content)
 
@@ -38,9 +38,9 @@ class MainPage(BasePage, LogsClass):
             self.logger.error(f"Error occurred scraping failed for: {str(e)}")
 
     @staticmethod
-    def insert_data_to_excel(df, gas, name_of_sheet):
+    def insert_data_to_excel(df, gas_price, name_of_sheet):
         df = df.replace({'-': 'x'})
-        sorted_df = df.sort_values(by=gas)
+        sorted_df = df.sort_values(by=gas_price)
         try:
             existing_excel = pandas.read_excel(TestData.file_path_excel, sheet_name=None)
         except FileNotFoundError:
@@ -49,18 +49,20 @@ class MainPage(BasePage, LogsClass):
         with pandas.ExcelWriter(TestData.file_path_excel, engine='xlsxwriter') as writer:
             for sheet_name, data in existing_excel.items():
                 data.to_excel(writer, sheet_name=sheet_name, index=False)
-            sheet_name = name_of_sheet if name_of_sheet else existing_excel
+            if name_of_sheet:
+                sheet_name = name_of_sheet
+            else:
+                sheet_name = existing_excel
             sorted_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
     def change_language(self):
         try:
             self.logger.info("Scrap data insert to excel and send email test started")
             self.wait_element(TITLE_OF_THE_GAS_PAGE)
-            language_change = BUTTON_CHANGE_LANGUAGE_LT
-            self.wait_element(language_change)
-            self.click(language_change)
+            self.wait_element(BUTTON_CHANGE_LANGUAGE_LT)
+            self.click(BUTTON_CHANGE_LANGUAGE_LT)
         except Exception as e:
-            self.logger.error(f"Change language to Lithuanian error: {str(e)}")
+            self.logger.error(f"Change language to Lithuanian error occurred: {str(e)}")
             raise
 
     def select_city(self):

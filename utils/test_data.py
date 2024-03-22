@@ -12,7 +12,7 @@ class TestData:
     excel_row_degaline = 'Degalinė'
     excel_row_adresas = 'Adresas'
 
-    scraped_data_dyzelis = 'Dyzelis'
+    scraped_data_dyzelis = 'Diesel'
     excel_sheet_value_dyzelis = "Dyzelino kainos"
 
     scraped_data_95 = '95'
